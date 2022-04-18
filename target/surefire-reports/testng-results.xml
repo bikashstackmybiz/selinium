@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="5440" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:17 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:day2@6acdbdf5]" name="ploan" class="day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal loan" duration-ms="5440" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:17 IST">
+      <class name="day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:day2@6acdbdf5]" name="prerequiste" is-config="true" duration-ms="6" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:day2@6acdbdf5]" name="ploan" duration-ms="0" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- day2 -->
+      <class name="StaticDropdown">
+        <test-method status="PASS" signature="staticDropdown()[pri:0, instance:StaticDropdown@4b1c1ea0]" name="staticDropdown" duration-ms="5395" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown -->
+      </class> <!-- StaticDropdown -->
+      <class name="day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:day1@167fdd33]" name="Demo" duration-ms="4" started-at="2022-04-14T12:09:11 IST" finished-at="2022-04-14T12:09:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:day1@167fdd33]" name="lastexecution" is-config="true" duration-ms="1" started-at="2022-04-14T12:09:17 IST" finished-at="2022-04-14T12:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+        <test-method status="PASS" signature="afSyite()[pri:0, instance:day1@167fdd33]" name="afSyite" is-config="true" duration-ms="1" started-at="2022-04-14T12:09:17 IST" finished-at="2022-04-14T12:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSyite -->
+      </class> <!-- day1 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
