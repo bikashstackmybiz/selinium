@@ -3,9 +3,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 public class StaticDropdown {
-    public static void main(String[] args) {
+    @Test
+    public void staticDropdown() {
         System.setProperty("webdriver.chrome.driver", "/home/vikash/Downloads/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://3.110.88.201/dropdownsPractise/");

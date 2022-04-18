@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-public class HandleIFrame {
+public class  HandleIFrame {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/home/vikash/Downloads/chromedriver");
         WebDriver driver = new ChromeDriver();
